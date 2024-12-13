@@ -5,18 +5,20 @@ import com.example.kotlin_classes.abschluss_abgabe.enums.Genre
 import com.example.kotlin_classes.abschluss_abgabe.nested_inner.Library
 
 /**
- * Main function to test the Library system functionality.
+ * Main function that simulates the functionality of a library system.
+ * It adds books to the library, performs operations like checking out and reserving books,
+ * and searches for books by title and author.
  *
  * Steps performed:
- * 1. Creates a Library instance and adds books (one for each genre).
- * 2. Prints genres descriptions
- * 3. Sets and prints the library address.
+ * 1. Creates a Library instance and adds books (one from each genre, with two books by Grimm Brothers).
+ * 2. Prints the genre descriptions of each book.
+ * 3. Creates a LibraryAddress and prints it.
  * 4. Creates a LibraryMember and:
  *    - Checks out a book.
  *    - Reserves another book.
- * 5. Displays the status of all books in the library.
- * 6. Searches for a book by title and displays the result.
- * 7. Searches for books by a specific author and lists the results.
+ * 5. Displays the current status of all books in the library.
+ * 6. Searches for a book by its title and displays the result.
+ * 7. Searches for books by a specific author ('Grimm Brothers') and lists the results.
  */
 fun main() {
     val library = Library(mutableListOf())
