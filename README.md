@@ -2,6 +2,8 @@
 # Kotlin-Classes
 Data-, Enum-, Nested-, Sealed-Klassen
 
+Enrique Hofferer (218717)
+
 Hier finden sie alles was Sie zum lösen der Aufgaben brauchen.
 
 Bei Fragen gerne uns eine Mail Schreiben:
